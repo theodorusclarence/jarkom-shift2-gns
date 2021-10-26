@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^192\.200\.2\.2$
+RewriteRule ^(.*)$ http://www.franky.e01.com/$1 [L,R=301]
